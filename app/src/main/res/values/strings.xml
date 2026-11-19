@@ -16,4 +16,7 @@
     <string name="tanya">Apakah anda yakin ingin menghapus data ini?</string>
     <string name="yes">Ya</string>
     <string name="no">Tidak</string>
+    <string name="loading_data">Memuat data...</string>
+    <string name="error_load">Gagal memuat data</string>
+    <string name="cari_siswa">Cari Siswa</string>
 </resources>
