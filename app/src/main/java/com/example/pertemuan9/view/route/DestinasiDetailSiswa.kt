@@ -3,6 +3,9 @@ package com.example.pertemuan9.view.route
 import com.example.pertemuan9.R
 import com.example.pertemuan9.uicontroller.DestinasiNavigasi
 
+/**
+ * Destinasi navigasi untuk halaman detail siswa
+ */
 object DestinasiDetailSiswa : DestinasiNavigasi {
     override val route = "detail_siswa"
     override val titleRes = R.string.detail_siswa
