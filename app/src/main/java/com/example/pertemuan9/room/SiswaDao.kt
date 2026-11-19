@@ -20,6 +20,9 @@ interface SiswaDao {
     @Query("SELECT * from tblSiswa WHERE id = :id")
     fun getSiswa(id: Int): Flow<Siswa>
 
+    @Query("SELECT * FROM tblSiswa WHERE nama LIKE '%' || :nama || '%' ORDER BY nama ASC")
+    fun cariSiswaByNama(nama: String): Flow<List<Siswa>>
+
     @Delete
     suspend fun delete(siswa: Siswa)
 
